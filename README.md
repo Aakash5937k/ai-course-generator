@@ -1,36 +1,149 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  AI Course Generator
 
-## Getting Started
+An AI-powered web application that generates personalized courses using Google Gemini AI. Users can create structured learning paths with chapters and detailed content based on any topic.
 
-First, run the development server:
+---
+
+##  Project Preview
+
+> Add screenshots or GIFs of your application here.
+
+Example:
+
+- Home Page
+- Dashboard
+- Course Generation
+- Course Details
+
+---
+
+##  Features
+
+-  AI-generated course content using Google Gemini AI
+-  Secure authentication with Clerk
+-  Personalized course creation
+-  Chapter-wise learning content
+-  Dashboard to manage courses
+-  Neon PostgreSQL database
+-  Drizzle ORM for database operations
+-  Firebase integration
+-  Responsive design using Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- Next.js 15
+- React
+- Tailwind CSS
+- Shadcn UI
+
+### Backend
+- Next.js Server Actions
+- Drizzle ORM
+
+### Database
+- Neon PostgreSQL
+
+### Authentication
+- Clerk
+
+### AI
+- Google Gemini AI
+
+### Cloud Services
+- Firebase
+
+---
+
+##  Project Structure
+
+```
+app/
+components/
+configs/
+public/
+lib/
+middleware.js
+drizzle.config.js
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/ai-course-generator.git
+```
+
+Go into the project
+
+```bash
+cd ai-course-generator
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file and add your environment variables.
+
+Start the project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file with:
 
-## Learn More
+```env
+NEXT_PUBLIC_DB_CONNECTION_STRING=
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+GOOGLE_API_KEY=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Quiz generation
+- Course certificates
+- Video recommendations
+- Progress tracking
+- AI chatbot for learners
+- Admin dashboard
+
+---
+
+##  Author
+
+**Aakash Maddala**
+
+LinkedIn: https://www.linkedin.com/in/aakash-maddala/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhBR6dMh%2BRg6L5gS6oaUjVw%3D%3D
+
+GitHub: https://github.com/Aakash5937k
+
+---
+
+##  If you like this project
+
+Give it a ⭐⭐⭐⭐⭐ on GitHub!
