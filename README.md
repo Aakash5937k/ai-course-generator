@@ -4,19 +4,6 @@ An AI-powered web application that generates personalized courses using Google G
 
 ---
 
-##  Project Preview
-
-> Add screenshots or GIFs of your application here.
-
-Example:
-
-- Home Page
-- Dashboard
-- Course Generation
-- Course Details
-
----
-
 ##  Features
 
 -  AI-generated course content using Google Gemini AI
